@@ -1,0 +1,22 @@
+{
+  "name": "@adapttive/remark-image-optimize",
+  "version": "1.0.2",
+  "main": "src/index.js",
+  "repository": "git@github.com:adapttive/remark-image-optimize.git",
+  "author": "Milind Singh <hello@adapttive.com>",
+  "license": "MIT",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "lodash": "^4.17.21",
+    "sync-request": "^6.1.0",
+    "unist-util-visit": "^2.0.3"
+  },
+  "devDependencies": {
+    "remark": "^13.0.0",
+    "remark-gfm": "^1.0.0",
+    "remark-html": "^13.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
